@@ -31,7 +31,7 @@ def initialize_paddleocr():
     """Initializes PaddleOCR with default parameters.
 
     Returns:
-        PaddleOCR: An instance of the PaddleOCR class with default settings.
+        PaddleOCR: An instance of the PaddleOCR class.
     """
     return PaddleOCR(
         use_gpu=True,  # Default to GPU if available
